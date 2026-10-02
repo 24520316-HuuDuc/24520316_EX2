@@ -108,3 +108,13 @@ footer {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
+html[data-theme="light"] {
+  --color-bg: #f8fafc;
+  --color-surface: #ffffff;
+  --color-surface-light: #e2e8f0;
+  --color-text: #0f172a;
+  --color-text-muted: #475569;
+  --color-primary: #0369a1;
+  --color-accent: #be123c;
+  --color-border: #64748b;
+}
